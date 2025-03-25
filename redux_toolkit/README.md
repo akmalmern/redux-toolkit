@@ -1,12 +1,38 @@
-# React + Vite
+# 📝 Redux Toolkit bilan Post Management Dasturi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu loyiha **Redux Toolkit** va **React** yordamida **postlarni boshqarish** uchun yaratilgan. Foydalanuvchilar postlarni qo‘shishi, o‘chirish, tahrirlash va qidirish imkoniyatiga ega.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 O‘rnatish (Installation)
 
-## Expanding the ESLint configuration
+Loyihani yuklab olish va ishga tushirish uchun quyidagi bosqichlarni bajaring:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/username/redux-toolkit-posts.git
+cd redux-toolkit-posts
+npm install
+npm start
+🔧 Ishlatilgan texnologiyalar
+⚛️ React – Frontend kutubxonasi
+
+🛠️ Redux Toolkit – Global state management
+
+🎨 TailwindCSS – UI dizayn
+
+🔗 Axios – API bilan ishlash
+
+🔥 JSONPlaceholder API – Fake ma’lumotlar bazasi
+
+📌 Xususiyatlar (Features)
+✅ Postlarni yaratish
+✅ Postlarni tahrirlash (edit)
+✅ Postlarni o‘chirish (delete)
+✅ Postlarni qidirish (search)
+✅ Postlar ro‘yxatini olish (get posts)
+
+📋 Ishlatish bo‘yicha qo‘llanma
+1️⃣ Post qo‘shish – Sarlavha va matn kiritib "Qo‘shish" tugmasini bosing.
+2️⃣ Postlarni ko‘rish – Qo‘shilgan postlar jadval shaklida aks etadi.
+3️⃣ Postni o‘chirish – "Delete" tugmasini bosish orqali postni o‘chirish mumkin.
+4️⃣ Postni tahrirlash – "Edit" tugmasi orqali postni o‘zgartirish mumkin.
